@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "jogoteca"
+version = "0.1.0"
+description = "Curso de flask da Alura"
+authors = ["Joao Victor <jvpereirarocha@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "2.0.2"
+python-dotenv = "^0.21.0"
+psycopg2 = "^2.9.5"
+alembic = "^1.8.1"
+
+[tool.poetry.dev-dependencies]
+isort = "^5.10.1"
+black = "^22.10.0"
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
